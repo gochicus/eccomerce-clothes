@@ -1,0 +1,23 @@
+.subscribe {
+    background-image: url("../img/subscribe/Layer_41.jpg");
+    min-width: 1200px;
+    min-height: 438px;
+}
+.subscription {
+    min-height: 438px;
+}
+.subscription-text {
+    width: 386px;
+    height: 68px;
+    color: #222224;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    /* Text style for "“, Vestibu" */
+    letter-spacing: 0.4px;
+}
+.author {
+    background-color: #ececec;
+    border-radius: 50%;
+}
