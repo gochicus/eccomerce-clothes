@@ -1,0 +1,123 @@
+.featured {
+    max-width: 1162px;
+}
+.featured-header {
+    text-align: center;
+    max-height: 51px;
+}
+.featured-header h2 {
+    width: 210px;
+    height: 23px;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    /* Text style for "Fetured It" */
+    letter-spacing: 0.75px;
+    text-transform: capitalize;
+}
+.featured-header span {
+    /* Style for "Shop for i" */
+    width: 348px;
+    height: 12px;
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px;
+    /* Text style for "S, hop for" */
+    letter-spacing: 0.35px;
+}
+.featured-container {
+    max-height: 900px;
+}
+.featured-products {
+    min-width: 261px;
+    min-height: 342px;
+    padding-bottom: 39px;
+}
+.product-item-first {
+    background-image: url("../img/featured/tshort.png");
+    min-height: 279px;
+    min-width: 261px;
+}
+.product-item-second {
+    background-image: url("../img/featured/redblouse.png");
+    min-height: 279px;
+    min-width: 261px;
+}
+.product-item-third {
+    background-image: url("../img/featured/jacket.jpg");
+    min-height: 279px;
+    min-width: 261px;
+}.product-item-fourth{
+    background-image: url("../img/featured/whitedress.jpg");
+    min-height: 279px;
+    min-width: 261px;
+}.product-item-fifth {
+    background-image: url("../img/featured/stripes.jpg");
+    min-height: 279px;
+    min-width: 261px;
+}.product-item-sixth {
+    background-image: url("../img/featured/hat.jpg");
+    min-height: 279px;
+    min-width: 261px;
+}.product-item-seventh {
+    background-image: url("../img/featured/pants.jpg");
+    min-height: 279px;
+    min-width: 261px;
+}.product-item-eight {
+    background-image: url("../img/featured/shorts.jpg");
+    min-height: 279px;
+    min-width: 261px;
+}
+ .featured-products-text {
+     width: 157px;
+     height: 11px;
+     color: #222222;
+     font-family: Lato;
+     font-size: 13px;
+     font-weight: 400;
+     text-transform: uppercase;
+ }
+ .price {
+     width: 50px;
+     height: 15px;
+     color: #f16d7f;
+     font-family: Lato;
+     font-size: 16px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ .cart-small {
+     position: relative;
+     top:50%;
+     border: 2px solid black;
+     max-width: 120px;
+     max-height: 40px;
+     visibility: hidden;
+ }
+ .featured-products:hover .cart-small {
+     visibility: visible;
+ }
+ .featured-products:hover {
+     filter:brightness(50%);
+ }
+ .browse-button {
+     width: 130px;
+     height: 38px;
+     background-color: #f16d7f;
+     color: #ffffff;
+     font-family: Lato;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 32px;
+     /* Text style for "M, y Accou" */
+     letter-spacing: 0.38px;
+     text-transform: capitalize;
+     margin-left: 32px;
+     text-align: center;
+ }
+.featured-button {
+    min-width: 200px;
+    min-height: 40px;
+}

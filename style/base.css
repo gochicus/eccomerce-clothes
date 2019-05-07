@@ -3,5 +3,33 @@
     padding: 0;
 }
 .container {
-    width: 1616px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex {
+    display: flex;
+}
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justifyContent-center {
+    justify-content: center;
+}
+
+.alignItems-center {
+    align-items: center;
+}
+.justifyContent-space-around {
+    justify-content: space-around;
 }

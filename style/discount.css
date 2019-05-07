@@ -1,0 +1,72 @@
+.discount {
+    max-width: 1162px;
+}
+
+.flex-container-discount {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-discount {
+    display: flex;
+    flex-direction: column;
+   min-height: 824px;
+    justify-content: space-between;
+}
+
+.discount-item-first {
+    width: 560px;
+    height: 542px;
+    background-image: url("../img/discount/suit.jpg");
+}
+.discount-item-second {
+    width: 560px;
+    height: 260px;
+    background-color: #dadad2;
+    background-image: url("../img/discount/wallet.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.discount-item-third {
+    width: 560px;
+    height: 260px;
+    background-image: url("../img/discount/dress.jpg");
+}
+.discount-item-fourth {
+    width: 560px;
+    height: 542px;
+    background-image: url("../img/discount/glasses.jpg");
+}
+.text-discount {
+    position:relative;
+    top:25px;
+    display: inline-block;
+    background-color: white;
+    color:black;
+    min-height: 82px;
+}
+.text-item {
+    width: 136px;
+    height: 50px;
+    color: #222222;
+    font-family: "Lato - Black";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top:16px;
+    padding-left: 19px;
+}
+.text-item-category {
+    width: 136px;
+    height: 50px;
+    font-family: "Lato - Black";
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    padding-bottom:16px;
+    padding-left: 19px;
+    padding-right: 20px;
+}
