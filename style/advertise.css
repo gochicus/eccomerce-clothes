@@ -1,0 +1,13 @@
+.advertise {
+    max-width: 1162px;
+}
+.advertisement {
+   min-width: 767px;
+   min-height: 529px;
+    background-image: url("../img/advertise/Layer_38.jpg");
+}
+.offer{
+    width: 1140px;
+    height: 529px;
+    background-color: #222224;
+}
