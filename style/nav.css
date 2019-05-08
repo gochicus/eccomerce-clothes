@@ -28,3 +28,6 @@
 /*    line-height: 26px;*/
 /*    text-transform: uppercase;*/
 /*}*/
+.menu-item:hover {
+    border-bottom: 2px solid #f16d7f;;
+}

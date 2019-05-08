@@ -1,0 +1,49 @@
+.footer-head {
+    /* Style for "COMPANY" */
+    width: 170px;
+    height: 14px;
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "C, OMPANY" */
+    letter-spacing: 0.45px;
+}
+.footer-text-main {
+    width: 427px;
+    height: 180px;
+    color: #898989;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "Objectivel" */
+    letter-spacing: 0.35px;
+}
+.navItem-footer {
+    /* Style for "Home  Shop" */
+    width: 101px;
+    height: 179px;
+    color: #898989;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "Home" */
+    letter-spacing: 0.4px;
+    /* Text style for "Shop , Abo" */
+    line-height: 42px;
+}
+.footer-copy {
+    /* Style for "© 2017  Br" */
+    width: 260px;
+    height: 14px;
+    color: #7a7a7a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    /* Text style for "©,  2017" */
+    letter-spacing: 0.4px;
+}
