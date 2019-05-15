@@ -54,13 +54,14 @@
     </div>
 </header>
 <section class="new-arrivals container flex justifyContent-space-between alignItems-center" style="background-color:#f8f3f4; min-height: 148px">
-    <div><h2> New Arrivals</h2></div>
+    <div class="heading-text"><h2> New Arrivals</h2></div>
     <div class="flex" >
-        <a href="#" style="text-decoration: none"> Home/</a>
-        <a href="#" style="text-decoration: none">Men/</a>
-        <a href="#" style="text-decoration: none"> New arrivals</a>
+        <a href="#" style="text-decoration: none" class="home"> Home/</a>
+        <a href="#" style="text-decoration: none" class="men">Men/</a>
+        <a href="#" style="text-decoration: none" class="new-arriva"> New arrivals</a>
     </div>
 </section>
+<div class="flex" style="min-height: 71px"></div>
 <div class="flex container">
     <div class="flex flex-column">
         <div class="catalog-menu">
@@ -96,9 +97,9 @@
     </div>
     <div class="flex flex-column catalog-container-adm">
         <div class="flex justifyContent-space-between" style="min-width: inherit">
-            <span>trending now</span>
-            <span>size</span>
-            <span> price</span>
+            <span class="form-head">trending now</span>
+            <span class="form-head">size</span>
+            <span class="form-head"> price</span>
         </div>
         <div class="flex" style="min-width: inherit">
            <div class="flex flex-wrap" style="max-width:150px">
@@ -135,17 +136,19 @@
 <!--            </form>-->
             </div>
         </div>
-        <div class="flex" style="background-color: #f3f3f3; min-height: 50px; min-width: inherit">
-            <div class="flex flex">
+        <div class="flex justifyContent-start" style="background-color: #f3f3f3; min-height: 50px; min-width: inherit">
+            <div class="flex" style="max-width: 30px">
                 <button>sort by</button>
                 <select name="sort by" id="sort">
                     <option value="name"></option>
                 </select></div>
-            <div class="flex">
+            <div class="flex" style="max-width: 30px">
                 <button>show</button>
                 <select name="show" id="show">
                     <option value="9"></option>
-                </select></div>
+                </select>
+            </div>
+            <div class="flex" style="flex-basis: 1000px"></div>
         </div>
     </div>
 </div>
@@ -296,20 +299,20 @@
 </section>
 <div class="flex container" style="min-height: 341px; background-color: #222224">
     <div class="flex flex-column justifyContent-center">
-        <div class="flex justifyContent-space-around" style="min-width: 824px">
+        <div class="flex justifyContent-space-around" style="min-width: 824px; min-height: 60px">
             <img src="product/Form2.png" alt="">
             <img src="product/Forma3.png" alt="">
             <img src="product/Forma1.png" alt="">
         </div>
-        <div class="flex justifyContent-space-around" style="min-width: 824px">
-            <span>Free Delivery</span>
-            <span>Sales & discounts</span>
-            <span>Quality assurance</span>
+        <div class="flex justifyContent-space-around section-jump" style="min-width: 824px;min-height: 100px">
+            <span class="section-header">Free Delivery</span>
+            <span class="section-header">Sales & discounts</span>
+            <span class="section-header">Quality assurance</span>
         </div>
-        <div class="flex justifyContent-space-around" style="min-width: 824px">
-           <div style="max-width: 369px"> <span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
-            <div style="max-width: 369px"> <span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
-            <div style="max-width: 369px"> <span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
+        <div class="flex justifyContent-space-around" style="min-width: 824px;text-align: center;min-height: 100px; max-width: 924px">
+           <div style="max-width: 369px"> <span class="section-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
+            <div style="max-width: 369px"> <span class="section-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
+            <div style="max-width: 369px"> <span class="section-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
         </div>
     </div>
 </div>
@@ -352,7 +355,7 @@ a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”<
 </section>
 <footer>
     <div class="flex" style="flex-basis: inherit; min-height: 129px;"></div>
-    <div class="flex">
+    <div class="flex" style="max-width: 1600px">
         <div class="flex">
             <div class="logo-content">
                 <div class="img-logo">
@@ -370,7 +373,7 @@ a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”<
             <div class="footer-head">SHOP CATEGORY</div>
         </div>
     </div>
-    <div class="flex">
+    <div class="flex" style="max-width: 1600px">
         <div style="max-width: 575px; max-height: 215px; text-align: justify">
         <span class="footer-text-main">
             Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
@@ -439,7 +442,7 @@ Compellingly envisioneer corporate methods of empowerment before standards compl
         </div>
     </div>
     <div class="flex" style="flex-basis: inherit; min-height: 97px; "></div>
-    <div class="flex footer-social justifyContent-space-between alignItems-center" style="background-color: #e6e6e6; min-height: 80px">
+    <div class="flex footer-social justifyContent-space-between alignItems-center" style="background-color: #e6e6e6; min-height: 80px;">
         <div style="max-width: 250px; text-align: left">
             <span class="footer-copy">&copy Brand All Rights Reserved</span>
         </div>

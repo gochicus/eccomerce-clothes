@@ -46,3 +46,6 @@ a {
 .alignItems-start{
     align-items: flex-start;
 }
+.justifyContent-start{
+    justify-content: flex-start;
+}
