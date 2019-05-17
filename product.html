@@ -54,101 +54,125 @@
     </div>
 </header>
 <section class="new-arrivals container flex justifyContent-space-between alignItems-center" style="background-color:#f8f3f4; min-height: 148px">
-    <div><h2> New Arrivals</h2></div>
+    <div class="heading-text"><h2> New Arrivals</h2></div>
     <div class="flex" >
-        <a href="#" style="text-decoration: none"> Home/</a>
-        <a href="#" style="text-decoration: none">Men/</a>
-        <a href="#" style="text-decoration: none"> New arrivals</a>
+        <a href="#" style="text-decoration: none" class="home"> Home/</a>
+        <a href="#" style="text-decoration: none" class="men">Men/</a>
+        <a href="#" style="text-decoration: none" class="new-arriva"> New arrivals</a>
     </div>
 </section>
+<div class="flex" style="min-height: 71px"></div>
 <div class="flex container">
     <div class="flex flex-column">
         <div class="catalog-menu">
-            <div class="sidebar">category</div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <div class="sidebar flex justifyContent-space-between alignItems-center"><span>category</span> <img src="product/arrow-bottom.png" alt="#" class="sidebar-arrow"></div>
+            <ul class="side-menu">
+                <li class="side-menu-item"> category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
             </ul>
         </div>
         <div class="catalog-menu">
-            <div class="sidebar">brand</div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="sidebar flex justifyContent-space-between alignItems-center"><span>brand</span> <img src="product/arrow-bottom.png" alt="#" class="sidebar-arrow"></div>
+
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+
         </div>
         <div class="catalog-menu">
-            <div class="sidebar">designer</div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <div class="sidebar flex justifyContent-space-between alignItems-center"><span>designer</span> <img src="product/arrow-bottom.png" alt="#" class="sidebar-arrow"></div>
+            <ul class="side-menu">
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
+                <li class="side-menu-item">category</li>
             </ul>
         </div>
     </div>
     <div class="flex flex-column catalog-container-adm">
         <div class="flex justifyContent-space-between" style="min-width: inherit">
-            <span>trending now</span>
-            <span>size</span>
-            <span> price</span>
+            <span class="form-head">trending now</span>
+            <div class="flex" style="min-width: 500px"></div>
+            <span class="form-head">size</span>
+            <div class="flex" style="min-width: 130px"></div>
+            <span class="form-head"> price</span>
         </div>
+        <div class="flex" style="min-height: 26px"></div>
         <div class="flex" style="min-width: inherit">
-           <div class="flex flex-wrap" style="max-width:150px">
-            <div>
-                <span><a href="">bohemian</a></span>
+           <div class="flex flex-wrap" style="max-width:500px">
+            <div class="form-links-container">
+                <a href=""><span class="form-links">bohemian</span></a>
             </div>
-            <div>
-                <span><a href="">floral</a></span>
+            <div class="form-links-container">
+                <a href=""><span class="form-links">floral</span></a>
             </div>
-            <div>
-                <span><a href="">lace</a></span>
+            <div class="form-links-container">
+                <a href=""><span class="form-links">lace</span></a>
             </div>
-            <div>
-                <span><a href="">floral</a></span>
+            <div class="form-links-container">
+                <a href=""><span class="form-links">floral</span></a>
             </div>
-            <div>
-                <span><a href="">lace</a></span>
+            <div class="form-links-container">
+                <a href=""><span class="form-links">lace</span></a>
             </div>
-            <div>
-                <span><a href="">bohemian</a></span>
+            <div class="form-links-container">
+                <a href=""><span class="form-links">bohemian</span></a>
             </div>
            </div>
             <div class="flex justifyContent-space-between" style="min-width:500px">
 <!--            <form action="">-->
-                <div class="flex flex-wrap" style="max-width: 150px"> <fieldset id="checkbox">
-                <input type="checkbox" name="a" value="X">X
-                <input type="checkbox" value="XL">XL
-                <input type="checkbox" value="L">L
-                <input type="checkbox" value="S">S
-                <input type="checkbox" value="XS">XS
-                <input type="checkbox" value="XXS">XXS
-                </fieldset></div>
-                <div><input type="range" value="0" max="400"></div>
+                <div class="flex flex-wrap alignItems-center" style="max-width: 150px">
+<!--                    <fieldset id="checkbox">-->
+                <input type="checkbox" name="a" value="X" class="size-input">X
+                <input type="checkbox" value="XL" class="size-input">XL
+                <input type="checkbox" value="L" class="size-input">L
+                <input type="checkbox" value="M" class="size-input">M
+                <input type="checkbox" value="S" class="size-input">S
+                <input type="checkbox" value="XS" class="size-input">XS
+                <input type="checkbox" value="XXS" class="size-input">XXS
+<!--                </fieldset>-->
+                </div>
 <!--            </form>-->
             </div>
+            <div>
+                <input type="range" value="0" max="400" multiple>
+            </div>
         </div>
-        <div class="flex" style="background-color: #f3f3f3; min-height: 50px; min-width: inherit">
-            <div class="flex flex">
-                <button>sort by</button>
-                <select name="sort by" id="sort">
+        <div class="flex" style="min-height: 41px"></div>
+        <div class="flex justifyContent-start" style="background-color: #f3f3f3; min-height: 50px; min-width: 1200px">
+            <div class="flex alignItems-center" >
+                <button class="button-catalog">sort by</button>
+                <select name="sort by" id="sort" class="button-catalog">
+                    <option value="name">bohemian</option>
+                    <option value="name">florial</option>
+                    <option value="name">lace</option>
                     <option value="name"></option>
-                </select></div>
-            <div class="flex">
-                <button>show</button>
-                <select name="show" id="show">
-                    <option value="9"></option>
-                </select></div>
+                    <option value="name"></option>
+                    <option value="name"></option>
+                </select>
+            </div>
+            <div class="flex alignItems-center" >
+                <button class="button-catalog">show</button>
+                <select name="show" id="show" class="button-catalog">
+                    <option value="9">9</option>
+                    <option value="name">8</option>
+                    <option value="name">6</option>
+                    <option value="name"></option>
+                    <option value="name"></option>
+                    <option value="name"></option>
+                </select>
+            </div>
+            <div class="flex" style="flex-basis: 1000px"></div>
         </div>
     </div>
 </div>
+<div class="flex" style="min-height: 48px"></div>
 <section class="catalog-container">
 <!--    <div class="featured-flexcolumn-holder flex flex-column">-->
 <!--&lt;!&ndash;        <div class="flex  alignItems-center">&ndash;&gt;-->
@@ -284,32 +308,63 @@
                 </div>
             </div>
         </div>
+    <div class="flex justifyContent-space-between alignItems-center">
+        <div class="flex subcount justifyContent-space-between" >
+            <img src="product/arrow-right.png" alt="">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <details>
+                <summary>...</summary>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">10</a>
+                <a href="#">11</a>
+                <a href="#">12</a>
+                <a href="#">13</a>
+                <a href="#">14</a>
+                <a href="#">15</a>
+                <a href="#">16</a>
+                <a href="#">17</a>
+                <a href="#">18</a>
+                <a href="#">19</a>
+            </details>
+            <a href="#">20</a>
+            <img src="product/arrow-left.png" alt="">
+        </div>
+        <div style="flex-basis: 370px"></div>
+        <button class="button"><a href="#">view all</a></button>
+    </div>
         <div style="flex-basis:79px"></div>
         <div class="flex flex-row">
             <div style="flex-basis: 594px; min-height: 217px"></div>
-            <div class="featured-button">
-                <a href="#" class="browse-button">browse all product</a>
-            </div>
+<!--            <div class="featured-button">-->
+<!--                <a href="#" class="browse-button">browse all product</a>-->
+<!--            </div>-->
             <div style="flex-basis: 594px;  min-height: 160px"></div>
         </div>
-    </div>
+<!--    </div>-->
 </section>
 <div class="flex container" style="min-height: 341px; background-color: #222224">
     <div class="flex flex-column justifyContent-center">
-        <div class="flex justifyContent-space-around" style="min-width: 824px">
+        <div class="flex justifyContent-space-around" style="min-width: 900px; min-height: 60px">
             <img src="product/Form2.png" alt="">
             <img src="product/Forma3.png" alt="">
             <img src="product/Forma1.png" alt="">
         </div>
-        <div class="flex justifyContent-space-around" style="min-width: 824px">
-            <span>Free Delivery</span>
-            <span>Sales & discounts</span>
-            <span>Quality assurance</span>
+        <div class="flex justifyContent-space-around section-jump" style="min-width: 900px;min-height: 100px">
+            <span class="section-header">Free Delivery</span>
+            <span class="section-header">Sales & discounts</span>
+            <span class="section-header">Quality assurance</span>
         </div>
-        <div class="flex justifyContent-space-around" style="min-width: 824px">
-           <div style="max-width: 369px"> <span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
-            <div style="max-width: 369px"> <span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
-            <div style="max-width: 369px"> <span>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
+        <div class="flex justifyContent-space-around" style="min-width: 824px;text-align: center;min-height: 100px; max-width: 924px">
+           <div style="max-width: 369px"> <span class="section-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
+            <div style="max-width: 369px"> <span class="section-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
+            <div style="max-width: 369px"> <span class="section-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></div>
         </div>
     </div>
 </div>
@@ -352,7 +407,7 @@ a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”<
 </section>
 <footer>
     <div class="flex" style="flex-basis: inherit; min-height: 129px;"></div>
-    <div class="flex">
+    <div class="flex" style="max-width: 1600px">
         <div class="flex">
             <div class="logo-content">
                 <div class="img-logo">
@@ -370,7 +425,7 @@ a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”<
             <div class="footer-head">SHOP CATEGORY</div>
         </div>
     </div>
-    <div class="flex">
+    <div class="flex" style="max-width: 1600px">
         <div style="max-width: 575px; max-height: 215px; text-align: justify">
         <span class="footer-text-main">
             Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
@@ -439,7 +494,7 @@ Compellingly envisioneer corporate methods of empowerment before standards compl
         </div>
     </div>
     <div class="flex" style="flex-basis: inherit; min-height: 97px; "></div>
-    <div class="flex footer-social justifyContent-space-between alignItems-center" style="background-color: #e6e6e6; min-height: 80px">
+    <div class="flex footer-social justifyContent-space-between alignItems-center" style="background-color: #e6e6e6; min-height: 80px;">
         <div style="max-width: 250px; text-align: left">
             <span class="footer-copy">&copy Brand All Rights Reserved</span>
         </div>
