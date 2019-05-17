@@ -1,0 +1,26 @@
+{
+  "name": "webstormprojects",
+  "version": "1.0.0",
+  "description": "studyprojects",
+  "main": "index.js",
+  "scripts": {
+    "test": "compile",
+    "scss": "node-sass -watch style -o style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gochicus/ecommerce-clothes.git"
+  },
+  "keywords": [
+    "qwerty"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gochicus/ecommerce-clothes/issues"
+  },
+  "homepage": "https://github.com/gochicus/ecommerce-clothes#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
