@@ -266,17 +266,27 @@ option {
 
 .sidebar-arrow:hover {
   transform: rotate(180deg);
-  transition: rotate 1s; }
+  transition: rotate 1s;
+  background-color: #ef5b70; }
 
 .heading-text:hover {
   transform: scale(1, 2);
   transition: scale 10s; }
 
+.side-menu {
+  position: relative; }
+
 .side-menu-item {
+  position: absolute;
   display: none; }
 
 .subcount:hover {
   width: 500px;
   transition: 15s; }
+
+.brand-cart:hover {
+  transform: rotateY(180deg);
+  transition: rotateY 5s;
+  transition-timing-function: cubic-bezier(0, 0, 1, 1); }
 
 /*# sourceMappingURL=product.css.map */
