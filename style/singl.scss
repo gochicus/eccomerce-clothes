@@ -1,7 +1,165 @@
 $color: #6f6e6e;
 $color3:#f7f7f7;
 $color2:#ef5b70;
+$font: Lato;
 .hero-single {
   min-height: 777px;
   background-color: $color3;
+}
+.product-item-first-single {
+  background-image: url("../img/single/leggins.jpg");
+  min-height: 280px;
+  min-width: 261px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #e9e9e9;
+}
+.product-item-second-single {
+  background-image: url("../img/single/sweater.jpg");
+  min-height: 280px;
+  min-width: 261px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #e9e9e9;
+}
+.product-item-third-single {
+  background-image: url("../img/single/top.jpg");
+  min-height: 280px;
+  min-width: 261px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #e9e9e9;
+}
+.product-item-fourth-single{
+  background-image: url("../img/single/Layer_47.png");
+  min-height: 280px;
+  min-width: 261px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; ;
+  background-color: #e9e9e9;
+}
+.section-women-header {
+  /* Style for "you may li" */
+  width: 234px;
+  height: 18px;
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.women-fieldset {
+  min-width: 640px;
+  min-height: 208px;
+  border-color: #eaeaea;
+}
+.button_women {
+  /* Style for "Rectangle" */
+  width: 537px;
+  height: 55px;
+  border: 1px solid #ef5b70;
+  background-color: #ffffff;
+}
+.women-label {
+  /* Style for "QUANTITY" */
+  width: 120px;
+  height: 25px;
+  color: #2f2f2f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.women__select {
+  /* Style for "Rectangle" */
+  width: 144px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+.women_button-text {
+  /* Style for "Add to Car" */
+  width: 83px;
+  height: 11px;
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+}
+.lines {
+  width: 60px;
+  border: 2px solid $color;
+}
+.lines:hover {
+  border: 2px solid $color2;
+
+}
+.price {
+  /* Style for "$561" */
+  width: 54px;
+  height: 24px;
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.model__description {
+  width: 132px;
+  height: 10px;
+  color: #b9b9b9;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.model__description__value {
+  width: 132px;
+  height: 10px;
+  color: #2f2f2f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.model__text {
+  /* Style for "Compelling" */
+  width: 618px;
+  height: 60px;
+  color: #5e5e5e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.model__header {
+  /* Style for "WOMEN COLL" */
+  width: 150px;
+  height: 30px;
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.company__logo {
+  /* Style for "Moschino C" */
+  width: 254px;
+  height: 14px;
+  color: #4d4d4d;
+  font-family: "Lato - Black";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
 }
