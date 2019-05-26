@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Product</title>
+    <title>shopping</title>
     <link rel="stylesheet" href="./style/index.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
           rel="stylesheet">
@@ -62,132 +62,160 @@
         <a href="#" style="text-decoration: none" class="new-arriva"> New arrivals</a>
     </div>
 </section>
-<div class="hero-single flex container">
-    <div style="flex-basis: 467px"></div>
-    <img src="img/single/model.jpg" alt="#">
-    <div style="flex-basis: 496px"></div>
-
+<div style="min-height: 90px"></div>
+<div class="flex-column">
+    <div class="flex" style="max-width: 1400px">
+        <div><span class="shopping-header-text">product details</span></div>
+        <div style="min-width: 40px"></div>
+        <div><span class="shopping-header-text">unit price</span></div>
+        <div><span class="shopping-header-text">quanity</span></div>
+        <div><span class="shopping-header-text">shipping</span></div>
+        <div><span class="shopping-header-text">subtotal</span></div>
+        <div><span class="shopping-header-text">action</span></div>
+    </div>
+    <div class="flex line-page alignItems-center">
+        <div class="flex">
+            <div class="product-item-first-shopping"></div>
+            <div class="flex-column justifyContent-space-between alignItems-center">
+                <div><span class="shopping-text">Mango  People  T-shirt</span></div>
+                <div class="flex-column">
+                    <div><span class="shopping-text-description">Color: Red</span></div>
+                    <div><span class="shopping-text-description"> Size: XII</span></div>
+                </div>
+            </div>
+        </div>
+        <div><span class="shopping-table-text">$150</span></div>
+        <div><input type="text" class="shop-input"></div>
+        <div><span class="shopping-table-text">FREE</span></div>
+        <div><span class="shopping-table-text">$300</span></div>
+        <div><span class="shopping-table-text">Buy</span></div>
+    </div>
+    <div class="flex line-page  alignItems-center">
+        <div class="flex">
+            <div class="product-item-second-shopping"></div>
+            <div class="flex-column justifyContent-space-between alignItems-center">
+                <div><span class="shopping-text">Mango  People  T-shirt</span></div>
+                <div class="flex-column">
+                    <div><span class="shopping-text-description">Color: Red</span></div>
+                    <div><span class="shopping-text-description"> Size: XII</span></div>
+                </div>
+            </div>
+        </div>
+        <div><span class="shopping-table-text">$150</span></div>
+        <div><input type="text" class="shop-input"></div>
+        <div><span class="shopping-table-text">FREE</span></div>
+        <div><span class="shopping-table-text">$300</span></div>
+        <div><span class="shopping-table-text">Buy</span></div>
+    </div>
+    <div class="flex line-page  alignItems-center">
+        <div class="flex">
+            <div class="product-item-third-shopping"></div>
+            <div class="flex-column justifyContent-space-between alignItems-center">
+                <div><span class="shopping-text">Mango  People  T-shirt</span></div>
+                <div class="flex-column">
+                    <div><span class="shopping-text-description">Color: Red</span></div>
+                    <div><span class="shopping-text-description"> Size: XII</span></div>
+                </div>
+            </div>
+        </div>
+        <div><span class="shopping-table-text">$150</span></div>
+        <div><input type="text" class="shop-input"></div>
+        <div><span class="shopping-table-text">FREE</span></div>
+        <div><span class="shopping-table-text">$300</span></div>
+        <div><span class="shopping-table-text">Buy</span></div>
+    </div>
+    <div class="flex justifyContent-space-between">
+        <button class="shopping-button" type="reset"><span class="shopping-button-text"> clear cart</span></button>
+        <button class="shopping-button" type="submit"><span class="shopping-button-text"> continue shopping</span>
+        </button>
+    </div>
 </div>
-<section class="flex-column justifyContent-center">
-    <div class="flex"> <h2 class="model__header"> women collection</h2></div>
-    <div class="flex" style="max-width: 200px;padding-bottom: 10px">
-        <div class="lines"></div>
-        <div class="lines"></div>
-        <div class="lines"></div>
+<div style=" min-height: 80px"></div>
+<div class="flex">
+    <div class="flex flex-column justifyContent-space-around" style="min-height: 300px">
+        <div><label for="country" class="shipping-header"> shipping adress</label></div>
+        <div><select name="oountry" id="country" class="shipping-select">
+            <option value="country" class="placeholder-text"> Bangladesh</option>
+        </select></div>
+        <div><input type="text" id="town" class="shipping-input" placeholder="State"></div>
+        <div><input type="text" id="street" class="shipping-input" placeholder="Postcode/Zip"></div>
+        <button class="button-shipping"><span class="shipping-button-text">get a quote</span></button>
     </div>
-    <div class="flex"><span class="company__logo">Moschino Cheap And Chic</span></div>
-    <div class="flex" style="flex-basis: 69px; min-height: 69px"></div>
-    <div class="flex" style="max-width: 618px; text-align: center;padding-bottom: 15px"><span class="model__text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </span></div>
-    <div class="flex" style="max-width: 540px">
-        <p><span class="model__description">MATERIAL:</span> <span class="model__description__value">COTTON</span></p>
-        <p><span class="model__description">DESIGNER:</span> <span class="model__description__value">BINBURHAN</span></p>
+    <div class="flex flex-column justifyContent-space-around" style="max-height: 230px">
+        <div><span class="shipping-header">coupon  discount</span></div>
+        <div><span class="cupon-text">Enter your coupon code if you have one</span></div>
+        <div><input type="text" class="shipping-input" placeholder="State"></div>
+        <button class="button-cupon"> <span class="button-cupon-text">apply cupon</span></button>
     </div>
-    <div class="flex" style="flex-basis:30px; min-height: 40px"></div>
-    <div class="flex"> <span class="price">$561</span></div>
-</section>
-<div style="min-height: 97px"></div>
-<div class="container flex">
-    <div style="flex-basis: 250px"></div>
-
-    <form action="#">
-        <div class="flex flex-column justifyContent-center">
-            <fieldset class="women-fieldset">
-                <div class="flex alignItems-center flex-wrap" style="width: inherit; min-height: inherit">
-                    <div class="flex-column">
-                        <div class="flex">
-                            <label for="color" class="women-label">choose color</label>
-                            <label for="size"  class="women-label"> choose size</label>
-                            <label for="quanity" class="women-label">quanity</label>
-                        </div>
-                        <div class="flex" style="padding-bottom: 20px; padding-top: 10px">
-                            <select name="color" id="color" class="women__select">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                            </select>
-                            <select name="size" id="size" class="women__select">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                        </select>
-                            <select name="quanity" id="quanity" class="women__select">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                        </select>
-                        </div>
-                        <div class="flex justifyContent-center">
-                            <button class="button_women"><img src="img/single/Forma_1_copy.png" alt=""> <span class="women_button-text">add to cart</span></button>
-                        </div>
-                    </div>
-
-                </div>
-            </fieldset>
+    <div class=" flex flex-column justifyContent-end alignItems-end" style="min-height: 214px;min-width: 360px;background-color: #f5f3f3">
+        <div class=" flex flex-column justifyContent-center" style="min-width: 300px; min-height: 214px">
+            <div class="flex justifyContent-end" style="min-width: 315px">
+                <div class="flex" style="flex-basis: 50px"></div>
+               <div> <span class="subtotal">subtotal</span></div>
+                <div><span class="subtotal"> $900</span></div>
+            </div>
+<!--            <div class="flex" style="flex-basis: 50px"></div>-->
+            <div class="flex justifyContent-end" style="min-width: 290px">
+                <div class="flex" style="flex-basis: 50px"></div>
+                <div> <span class="grandtotal">grandtotal</span></div>
+                <div> <span class="grandtotal__value">$900</span></div>
+            </div>
+            <div style="min-height: 10px"></div>
+            <div class="flex justifyContent-center">
+                <button class="button-cupom-area"> <span class="cupon-area">procced to checkout</span></button>
+            </div>
         </div>
-    </form>
-
-    <div style="flex-basis: 249px"></div>
+    </div>
 </div>
-<section>
-    <div style="min-height: 140px"></div>
-    <h2 class="container section-women-header" style="text-align: center">you may also like</h2>
-    <div style="min-height: 69px"></div>
-    <div class="container flex">
-        <div class="featured-products flex flex-column justifyContent-space-around">
-            <div class="product-item-first-single">
-                <div class="cart-small">
-                    <img src="./img/header/cart.png" alt="">
-                    <span>add to cart</span>
-                </div>
-            </div>
-            <div>
-                <span class="featured-products-text"> Blaze Leggings</span>
-            </div>
-            <div>
-                <span class="price">$52.00</span>
-            </div>
-        </div>
-        <div class="featured-products flex flex-column justifyContent-space-around">
-            <div class="product-item-second-single">
-                <div class="cart-small">
-                    <img src="./img/header/cart.png" alt="#">
-                    <span>add to cart</span>
-                </div>
-            </div>
-            <div>
-                <span class="featured-products-text"> ALEXA SWEATER</span>
-            </div>
-            <div>
-                <span class="price">$52.00</span>
-            </div>
-        </div>
-        <div class="featured-products flex flex-column justifyContent-space-around">
-            <div class="product-item-third-single">
-                <div class="cart-small">
-                    <img src="./img/header/cart.png" alt="#">
-                    <span>add to cart</span>
-                </div>
-            </div>
-            <div>
-                <span class="featured-products-text"> AGNES TOP</span>
-            </div>
-            <div>
-                <span class="price">$52.00</span>
-            </div>
-        </div>
-        <div class="featured-products flex flex-column justifyContent-space-around">
-            <div class="product-item-fourth-single">
-                <div class="cart-small">
-                    <img src="./img/header/cart.png" alt="#">
-                    <span>add to cart</span>
-                </div>
-            </div>
-            <div>
-                <span class="featured-products-text"> SYLVA SWEATER</span>
-            </div>
-            <div>
-                <span class="price">$52.00</span>
-            </div>
-        </div>
-    </div>
-</section>
+<div style="min-height: 133px"></div>
+<!--<div class="flex">-->
+<!--    <div class="flex-column justifyContent-space-around alignItems-center" style="min-height: 500px">-->
+<!--        <div style="padding-bottom: 10px"><span class="shopping-header">product details</span></div>-->
+<!--        <div class="flex">-->
+<!--            <div class="product-item-first-shopping"></div>-->
+<!--            <div class="flex-column justifyContent-space-between alignItems-center">-->
+<!--                <div><span class="shopping-text">Mango  People  T-shirt</span></div>-->
+<!--                <div class="flex-column">-->
+<!--                    <div><span>Color: Red</span></div>-->
+<!--                    <div> <span> Size: XII</span></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div style="min-height: 52px"></div>-->
+<!--        <div class="flex">-->
+<!--            <div class="product-item-second-shopping"></div>-->
+<!--            <div class="flex-column justifyContent-space-between alignItems-center">-->
+<!--                <div><span class="shopping-text">Mango  People  T-shirt</span></div>-->
+<!--                <div class="flex-column">-->
+<!--                    <div><span>Color: Red</span></div>-->
+<!--                    <div> <span> Size: XII</span></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div style="min-height: 52px"></div>-->
+<!--        <div class="flex">-->
+<!--            <div class="product-item-third-shopping"></div>-->
+<!--            <div class="flex-column justifyContent-space-between alignItems-center" style="min-height: 100px">-->
+<!--                <div><span class="shopping-text">Mango  People  T-shirt</span></div>-->
+<!--                <div class="flex-column">-->
+<!--                    <div><span>Color: Red</span></div>-->
+<!--                    <div> <span> Size: XII</span></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="flex-column" style="flex-basis: 210px"></div>-->
+<!--    <div class="flex-column">-->
+<!--        <div><span>unitprice</span></div>-->
+<!--        <div><span>$150</span></div>-->
+<!--        <div><span>$150</span></div>-->
+<!--        <div><span>$150</span></div>-->
+<!--    </div>-->
+<!--    <div class="flex-column"></div>-->
+<!--    <div class="flex-column"></div>-->
+<!--    <div class="flex-column"></div>-->
+<!--    <div class="flex-column"></div>-->
+<!--</div>-->
 <section class="subscribe container">
     <div class="flex alignItems-center subscription">
         <div class="flex justifyContent-space-between image-container">

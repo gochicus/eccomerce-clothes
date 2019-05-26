@@ -29,5 +29,28 @@
 /*    text-transform: uppercase;*/
 /*}*/
 .menu-item:hover {
-    border-bottom: 2px solid #f16d7f;;
+    border-bottom: 2px solid #f16d7f;
+    position: relative;
+}
+.submenu {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background-color: #fbfbfb;;
+    display: none;
+}
+.submenu-item {
+    list-style: none;
+    text-align: center;
+    background-color: inherit;
+    width: inherit;
+    height: inherit;
+}
+.menu-item:hover .submenu{
+    display: block;
+    /*border-top: 1px solid #f16d7f;*/
+    transition: 1s;
+}
+.menu-item:hover .submenu-item{
+    border-top: 2px solid #f16d7f;
 }

@@ -2,6 +2,9 @@
     margin: 0 auto;
     padding: 0;
 }
+footer {
+
+ }
 .container {
     max-width: 1600px;
     margin-left: auto;
@@ -33,6 +36,9 @@ a {
 .justifyContent-center {
     justify-content: center;
 }
+/*.justifyContent-end {*/
+/*    justify-content: center;*/
+/*}*/
 
 .alignItems-center {
     align-items: center;
@@ -46,6 +52,13 @@ a {
 .alignItems-start{
     align-items: flex-start;
 }
+.alignItems-end{
+    align-items: flex-end;
+}
+
 .justifyContent-start{
     justify-content: flex-start;
+}
+.justifyContent-end {
+    justify-content: flex-end;
 }

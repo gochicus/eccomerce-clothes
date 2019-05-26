@@ -1,0 +1,244 @@
+$color: #6f6e6e;
+$color3:#f7f7f7;
+$color2:#ef5b70;
+$font: Lato;
+.product-item-first-shopping {
+  background-image: url("../img/shopping/first.jpg");
+  min-height: 100px;
+  min-width: 115px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.product-item-second-shopping {
+  background-image: url("../img/shopping/mid.jpg");
+  min-height: 100px;
+  min-width: 115px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.product-item-third-shopping {
+  background-image: url("../img/shopping/last.jpg");
+  min-height: 100px;
+  min-width: 115px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.shopping-header {
+  /* Style for "Product De" */
+  width: 1137px;
+  height: 12px;
+  color: #222222;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  /* Text style for "P, roduct" */
+  letter-spacing: -0.2px;
+}
+.line-page {
+  min-height: 163px;
+  border-bottom: 1px solid #7a7a7a;
+  max-width: 1400px;
+
+}
+.shopping-text {
+  /* Style for "Mango  Peo" */
+  width: 157px;
+  height: 11px;
+  color: #222222;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.shopping-header-text {
+  /* Style for "Product De" */
+  width: 1137px;
+  height: 12px;
+  color: #222222;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  /* Text style for "P, roduct" */
+  letter-spacing: -0.2px;
+}
+.shopping-text-description {
+  /* Style for "Color:   R" */
+  width: 64px;
+  height: 31px;
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+
+}
+.shopping-table-text {
+  /* Style for "$150" */
+  width: 30px;
+  height: 13px;
+  color: #656565;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.shop-input {
+  /* Style for "Rectangle" */
+  width: 54px;
+  height: 30px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+.shopping-button {
+  /* Style for "Rectangle" */
+  width: 235px;
+  height: 50px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+ margin-top: 44px;
+}
+.shopping-button-text {
+  /* Style for "cONTINUE s" */
+  width: 147px;
+  height: 12px;
+  color: #4a4a4a;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.shipping-header {
+  /* Style for "coupon  di" */
+  width: 159px;
+  height: 13px;
+  color: #222222;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cupon-text {
+  /* Style for "Enter your" */
+  width: 232px;
+  height: 14px;
+  color: #000000;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+}
+.shipping-input {
+  /* Style for "Rectangle" */
+  width: 355px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+padding-left: 10px;
+}
+.shipping-select {
+  /* Style for "Rectangle" */
+  width: 355px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+.placeholder-text {
+  /* Style for "Bangladesh" */
+  width: 63px;
+  height: 13px;
+  color: #b1b1b1;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+ padding: 5px;
+}
+.button-shipping {
+  /* Style for "Rectangle" */
+  width: 100px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+.shipping-button-text{
+  /* Style for "get a quot" */
+  width: 71px;
+  height: 11px;
+  color: #4a4a4a;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.button-cupon {
+  /* Style for "Rectangle" */
+  width: 118px;
+  height: 35px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+.button-cupon-text {
+  /* Style for "Apply coup" */
+  width: 83px;
+  height: 10px;
+  color: #4a4a4a;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.button-cupom-area {
+  /* Style for "Rectangle" */
+  width: 273px;
+  height: 50px;
+  background-color: #f16d7f;
+}
+.cupon-area {
+  /* Style for "proceed to" */
+  width: 189px;
+  height: 13px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.subtotal {
+  /* Style for "Sub total" */
+  width: 101px;
+  height: 20px;
+  color: #4a4a4a;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.grandtotal {
+  /* Style for "GRAND TOTA" */
+  width: 165px;
+  height:30px;
+  color: #222222;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "$900" */
+}
+.grandtotal__value {
+  /* Style for "GRAND TOTA" */
+  width: 165px;
+  height: 30px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "$900" */
+  color: #f16d7f;
+  //padding-bottom: 10px;
+}
